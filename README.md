@@ -34,5 +34,6 @@ Step 3: Double click "Mount partition". <br>
 Step 4: Next, copy EFI in hackintosh-MSI-GF63 to USB and done. <br>
 
 # FIXED: 
-AUDIO: First, remove AppleHDA.kext in ~/Library/Extentions. Then, download "Hackintosh Vietnam Tool 1.9.6" with link https://taimienphi.vn/download-hackintosh-vietnam-tool-for-mac-39155. Finally, install sound with VoodooHDA (in Kexts->Sound->VoodooHDA) and restart when it's done.   
-
+AUDIO:   
+- OPTION 1: First, remove AppleHDA.kext in ~/Library/Extentions. Then, download "Hackintosh Vietnam Tool 1.9.6" with link https://taimienphi.vn/download-hackintosh-vietnam-tool-for-mac-39155. Finally, install sound with VoodooHDA (in Kexts->Sound->VoodooHDA) and restart when it's done.   
+- OPTION 2: You can download VoodooHDA.kext ver2.8.7 and add it to EFI->Clover->kext->orthers (replace it if it's realy existed). 
