@@ -1,3 +1,6 @@
+# UPDATED:
+The alling problems is fixed in EFI. If you have any the problems, you can find the above.
+
 # hackintosh-MSI-GF63 
 
 Model: https://www.msi.com/Laptop/support/GF63-THIN-9SC.  <br>
