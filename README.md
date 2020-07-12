@@ -1,5 +1,5 @@
 # UPDATED:
-The alling problems is fixed in EFI. If you have any the problems, you can find the above.
+The alling problems is fixed in EFI. If you have any the problems, you can find the below.
 
 # hackintosh-MSI-GF63 
 
