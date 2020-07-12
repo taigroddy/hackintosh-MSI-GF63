@@ -34,7 +34,10 @@ Step 3: Double click "Mount partition". <br>
 Step 4: Next, copy EFI in hackintosh-MSI-GF63 to USB and done. <br>
 
 # FIXED: 
-AUDIO:   
+AUDIO: <br>
 - OPTION 1: First, remove AppleHDA.kext in ~/Library/Extentions. Then, download "Hackintosh Vietnam Tool 1.9.6" with link https://taimienphi.vn/download-hackintosh-vietnam-tool-for-mac-39155. Finally, install sound with VoodooHDA (in Kexts->Sound->VoodooHDA) and restart when it's done.   
 - OPTION 2: You can download VoodooHDA.kext ver2.8.7 and add it to Systemt->Library->Extentions->Kexts (replace it if it's realy existed). 
-Note: If the twice options is not working, you should to use "Hackintosh Vietnam Tool 1.9.6" to repair it. The first, you need to remove the existing driver by installing all driver in Kexts->Sound, restart Clover and reinstall only VoodooHDA.
+Note: <br>
+If the both options is not working, you should to use "Hackintosh Vietnam Tool 1.9.6" to repair it. The first, you need to remove the existing driver by installing all driver in Kexts->Sound, restart Clover and then reinstall only VoodooHDA with the option 1.<br>
+Trackpad is jumping / lagging / skipping:  
+- I don't know what is happen but the new version of VoodooI2C.kext (ver2.4.3) is the reason for that. So, you just need to use the old version (in my case is ver2.2.x). It's solved.  
