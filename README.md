@@ -36,4 +36,5 @@ Step 4: Next, copy EFI in hackintosh-MSI-GF63 to USB and done. <br>
 # FIXED: 
 AUDIO:   
 - OPTION 1: First, remove AppleHDA.kext in ~/Library/Extentions. Then, download "Hackintosh Vietnam Tool 1.9.6" with link https://taimienphi.vn/download-hackintosh-vietnam-tool-for-mac-39155. Finally, install sound with VoodooHDA (in Kexts->Sound->VoodooHDA) and restart when it's done.   
-- OPTION 2: You can download VoodooHDA.kext ver2.8.7 and add it to EFI->Clover->kext->orthers (replace it if it's realy existed). 
+- OPTION 2: You can download VoodooHDA.kext ver2.8.7 and add it to Systemt->Library->Extentions->Kexts (replace it if it's realy existed). 
+Note: If the twice options is not working, you should to use "Hackintosh Vietnam Tool 1.9.6" to repair it. The first, you need to remove the existing driver by installing all driver in Kexts->Sound, restart Clover and reinstall only VoodooHDA.
