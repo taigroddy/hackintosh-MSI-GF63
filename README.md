@@ -27,11 +27,11 @@ Kích thước sản phẩm:	359 x 254 x 21.7 mm <br>
 # Note: Only work in MAC OS Mojave 10.14.x 
   
 How to create USB boot Mac:  
-Step 1: Download and install clover in mac https://mackie100projects.altervista.org/download-clover-configurator/. 
+Step 1: Download and install clover in mac https://mackie100projects.altervista.org/download-clover-configurator/. <br>
 Step 2: Download and unzip hackintosh-MSI-GF63 https://github.com/taigroddy/hackintosh-MSI-GF63. <br>
-Step 2: Open app and go to Mount EFI. <br>
-Step 3: Double click "Mount partition". <br>
-Step 4: Next, copy EFI in hackintosh-MSI-GF63 to USB and done. <br>
+Step 3: Open app and go to Mount EFI. <br>
+Step 4: Double click "Mount partition". <br>
+Step 5: Next, copy EFI in hackintosh-MSI-GF63 to USB and done. <br>
 
 # FIXED: 
 AUDIO: <br>
