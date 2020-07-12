@@ -41,4 +41,4 @@ Note: <br>
 If the both options is not working, you should to use "Hackintosh Vietnam Tool 1.9.6" to repair it. The first, you need to remove the existing driver by installing all driver in Kexts->Sound, restart Clover and then reinstall only VoodooHDA with the option 1.<br>
 
 Trackpad is jumping / lagging / skipping:  
-- I don't know what is happen but the new version of VoodooI2C.kext (ver2.4.3) is the reason for this. So, you just need to use the old version - In my case, it is ver2.2.x). It's solved.  
+- I don't know what is happen but the new version of VoodooI2C.kext (ver2.4.3) is the reason for this. So, you just need to use the old version - In my case, it is ver2.2.x). You can download the old version in https://github.com/VoodooI2C/VoodooI2C/releases and add it to EFI/Clover/kexts/Other (replace all). It's solved.  
